@@ -1,26 +1,38 @@
 PODS:
   - battery (0.0.1):
     - Flutter
+  - contact_picker (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
+  - location (0.0.1):
+    - Flutter
   - url_launcher (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - battery (from `.symlinks/plugins/battery/ios`)
+  - contact_picker (from `.symlinks/plugins/contact_picker/ios`)
   - Flutter (from `.symlinks/flutter/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
   - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
 
 EXTERNAL SOURCES:
   battery:
     :path: ".symlinks/plugins/battery/ios"
+  contact_picker:
+    :path: ".symlinks/plugins/contact_picker/ios"
   Flutter:
     :path: ".symlinks/flutter/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
   url_launcher:
     :path: ".symlinks/plugins/url_launcher/ios"
 
 SPEC CHECKSUMS:
   battery: 2efe849ceb3b99f3976f91c5448e375ca7db022e
+  contact_picker: 57db5d8b410b52a0457d88f7b15de7d3307e8f16
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
   url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09

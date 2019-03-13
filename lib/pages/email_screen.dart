@@ -33,8 +33,9 @@ class ClicksPerYear {
       r: color.red, g: color.green, b: color.blue, a: color.alpha);
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage>  with AutomaticKeepAliveClientMixin{
   int _counter = 0;
+  bool get wantKeepAlive => true;
 
   void _incrementCounter() {
     setState(() {

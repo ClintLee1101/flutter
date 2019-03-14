@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-//import 'pages/airplay_screen.dart';
-import 'pages/email_screen.dart';
+import 'pages/sail_screen.dart';
 import 'pages/home_screen.dart';
-import 'pages/pages_screen.dart';
 
 class BottomNavigationWidget extends StatefulWidget {
   @override
@@ -14,14 +12,29 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
   int _currentIndex = 0;
   List<Widget> list = List();
 
+  //生命周期
   @override
   void initState() {
     list
       ..add(HomeScreen())
-      ..add(EmailScreen())
-      ..add(PagesScreen());
+      ..add(SailScreen());
     super.initState();
   }
+
+  @override
+  void didChangeDependencies(){
+    super.didChangeDependencies();
+
+    // Additional code
+  }
+
+  @override
+  void dispose(){
+    // Additional disposal code
+
+    super.dispose();
+  }
+
 
   @override
   Widget build(BuildContext context) {

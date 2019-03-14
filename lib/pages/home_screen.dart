@@ -9,7 +9,6 @@ class HomeScreen extends StatefulWidget{
   _HomeScreenState createState() => _HomeScreenState();
 
 }
-
 class _HomeScreenState extends State<HomeScreen> {
   bool check = false;
   bool hide = false;

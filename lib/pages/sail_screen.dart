@@ -1,7 +1,7 @@
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/material.dart';
 
-class EmailScreen extends StatelessWidget {
+class SailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -33,9 +33,8 @@ class ClicksPerYear {
       r: color.red, g: color.green, b: color.blue, a: color.alpha);
 }
 
-class _MyHomePageState extends State<MyHomePage>  with AutomaticKeepAliveClientMixin{
+class _MyHomePageState extends State<MyHomePage>{
   int _counter = 0;
-  bool get wantKeepAlive => true;
 
   void _incrementCounter() {
     setState(() {

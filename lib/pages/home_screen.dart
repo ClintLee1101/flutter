@@ -35,12 +35,12 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             new Container(
-              width:400.0,
+              width:375.0,
               height:167.0,
-              margin: const EdgeInsets.only(bottom:12.0),
-              padding: const EdgeInsets.fromLTRB(100, 10, 100, 10),
+              margin: const EdgeInsets.only(bottom:12.0,),
+              padding: const EdgeInsets.fromLTRB(127.5, 23.7, 127.5, 23.7),
               child: new CircleAvatar(
-                radius: 40,
+                radius: 120,
                 backgroundImage: AssetImage(
                   'images/mine.jpg',
                 ),
@@ -177,8 +177,6 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-
-
 }
 
 
@@ -249,6 +247,20 @@ class _SecondScreenState extends State<SecondScreen> {
 //        });
 //      });
 //    });
+  }
+
+  @override
+  void didChangeDependencies(){
+    super.didChangeDependencies();
+
+    // Additional code
+  }
+
+  @override
+  void dispose(){
+    // Additional disposal code
+
+    super.dispose();
   }
 
 
